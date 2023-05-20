@@ -20,7 +20,7 @@ export default function Home({ data }: PageProps) {
   const user = data?.user;
   return (
     <main className='h-screen bg-[#040F1A] w-screen flex flex-col items-center justify-center text-white'>
-      {user && (
+      {data && (
         <div className='bg-[#0B1B2B] flex gap-5 py-12 px-8 rounded-lg mb-12 shadow-xl border-[1px] relative'>
           <img
             src={data.user.avatar_url}
