@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@twind/preact": "^1.0.5"
+  }
+}
